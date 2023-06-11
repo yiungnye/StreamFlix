@@ -16,6 +16,8 @@
                 input_html: { class: "devise-input" },
                 wrapper_html: { class: "devise-wrapper" }, :autocomplete => "off"  %>
 
+    <%= f.input :photo, as: :file %>
+
     <%= f.button :submit, "Create an account", class: "devise-submit" %>
 
     <p class="devise-account">Already have an account? <span><%= link_to 'Login', new_session_path(resource_name) %></span></p>
