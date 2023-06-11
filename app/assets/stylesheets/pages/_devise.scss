@@ -1,0 +1,80 @@
+.devise-form {
+  padding: 32px;
+  background-color: #161D2F;
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+.login--title {
+  color: white;
+  font-weight: 300;
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.devise-input {
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid #979797;
+  padding: 0;
+  padding-left: 16px;
+  padding-bottom: 18px;
+}
+
+.devise-input:first-child {
+  margin-bottom: 24px;
+}
+
+.devise-input:first-child {
+  margin-bottom: 40px;
+}
+
+.devise-input::placeholder {
+  color: #979797;
+  font-size: 15px;
+}
+
+.devise-input:focus,
+.devise-input:autofill,
+.devise-input:-webkit-autofill,
+.devise-input:not(:focus) {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: transparent;
+  color: white;
+}
+
+.devise-submit {
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+  margin: 0 0 24px 0;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  width: 100%;
+  background-color: #FC4747;
+  border-radius: 6px;
+  border: 0;
+}
+
+.devise-submit:hover {
+  color: white;
+  background-color: #FC4747;
+}
+
+.devise-account {
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+}
+
+.devise-account span a {
+  color: #FC4747;
+  text-decoration: none;
+}
