@@ -1,5 +1,7 @@
 <nav>
-  <%= image_tag("logo") %>
+  <%= link_to :root do %>
+    <%= image_tag("logo") %>
+  <% end %>
   <ul>
     <% if current_page?(controller: 'pages', action: 'home') %>
       <li><i class="fa-solid fa-house fill"></i></li>
