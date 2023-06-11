@@ -6,7 +6,11 @@
     <% if current_page?(controller: 'pages', action: 'home') %>
       <li><i class="fa-solid fa-house fill"></i></li>
     <% else %>
-      <li><i class="fa-solid fa-house"></i></li>
+      <li>
+        <%= link_to :root do %>
+          <i class="fa-solid fa-house"></i>
+        <% end %>
+      </li>
     <% end %>
 
       <li><i class="fa-solid fa-film"></i></li>

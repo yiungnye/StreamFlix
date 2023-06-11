@@ -1,0 +1,7 @@
+<% @movies.each do |movie| %>
+  <div class="card--trending" style="background-image: url(<%= cl_image_tag(movie.photo.key) %>);">
+    <%= movie.title %>
+    <%= movie.release_date %>
+    <%= cl_image_tag(movie.photo.key) %>
+  </div>
+<% end %>
